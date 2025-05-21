@@ -85,7 +85,7 @@ async def handle_excel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 if __name__ == "__main__":
     import asyncio
 
-    TOKEN = "YOUR_BOT_TOKEN_HERE"  # <-- Замени на токен своего бота
+    TOKEN = "5642326211:AAFY4jNcl-E4OhxEyaEWJ--9tyw4sHagGgk"  # <-- Замени на токен своего бота
 
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_handler(MessageHandler(filters.Document.ALL, handle_excel))
